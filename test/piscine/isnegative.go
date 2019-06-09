@@ -1,4 +1,4 @@
-package main
+package piscine
 
 import "fmt"
 
@@ -8,8 +8,4 @@ func IsNegative(nb int) {
 	} else {
 		fmt.Println("F")
 	}
-}
-
-func main() {
-	IsNegative(1)
 }
