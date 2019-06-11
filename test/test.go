@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import piscine ".."
 
 func main() {
-	fmt.Println("9876543210")
+	piscine.Countdown(9876543210)
 }
