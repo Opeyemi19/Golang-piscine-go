@@ -1,8 +1,22 @@
 package piscine
 
-import "fmt"
+import (
+	"strconv"
+)
 
-//Countdown ...
-func Countdown(n int) {
-	fmt.Println(n)
+// Atoi ...
+func Atoi(s string) int {
+
+	// if s == ParseInt() {
+	// 	// return 0
+	// }
+
+	if S, err := strconv.Atoi(s); err == nil {
+		// fmt.Printf("%v", S)
+		// fmt.Println(S)
+		return S
+	}
+
+	return 0
+
 }
