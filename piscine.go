@@ -1,6 +1,7 @@
 package piscine
 
-// UltimatePointOne ...
-func UltimatePointOne(n ***int) {
-	***n = 1
+// DivMod ...
+func DivMod(a int, b int, div *int, mod *int) {
+	*div = a / b
+	*mod = a % b
 }
