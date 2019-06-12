@@ -1,6 +1,6 @@
 package piscine
 
-//Countdown ...
-// func Countdown(n int) {
-// 	fmt.Println(n)
-// }
+// PointOne ...
+func PointOne(n *int) {
+	*n = 1
+}
